@@ -20,7 +20,11 @@ function Login(props) {
         fnd=true
         setfound(true)
         console.log("login successful");
-        navigate('/landing')
+        navigate('/landing',{
+          state:{
+            name:user.u_name
+          }
+        })
       }
     });
     if (!fnd) {

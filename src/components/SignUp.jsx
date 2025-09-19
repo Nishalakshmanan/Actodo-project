@@ -29,8 +29,8 @@ function SignUp(props) {
     }
   }
   return (
-    <div className="bg-black p-4 vs:p-7 sm:p-11 flex justify-center items-center h-screen">
-      <div className="bg-[#EFEFEF] w-full min-w-[260px] max-w-[86%] p-4 xs:p-7 sm:p-10 rounded-md">
+    <div className="bg-black p-1 vs:p-5 sm:p-11 flex justify-center items-center h-screen">
+      <div className="bg-[#EFEFEF] w-full min-w-[260px] max-w-[86%] p-4 xs:p-6 sm:p-10 rounded-md">
         <h1 className="text-2xl font-semibold">Hey Hi 👋</h1>
         <p>You can Signup here :)</p>
         <div className="flex flex-col gap-2 my-2">
